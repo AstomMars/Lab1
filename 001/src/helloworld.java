@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
-
+//powered by eclipse
 class node{
 	public int quotiety = 1;//系数，正整数
 	public char str[] = new char[26];//只能以单个字母作为变量
@@ -138,7 +138,7 @@ class Multinomial{
 		if(Node.next == null){
 			return;
 		}
-		int i,counter; 
+		int i,counter;
 		do{
 			TempNode = NowNode.next;Temp_preNode = NowNode;
 			while(TempNode != null){
@@ -297,7 +297,7 @@ class Multinomial{
 				break;
 		}while (true);
 	}
-	
+
 	public node head = new node();//储存链表的头指针
 	public node forother = new node();//镜像链表的头指针
 }
